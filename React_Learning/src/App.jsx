@@ -4,6 +4,7 @@ import Card from './components/Card'
 import Counter from './components/Counter'
 import Toggle from './components/Toggle'
 import QuoteBox from './components/QuoteBox'
+import SkillsList from './components/SkillsList'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Counter/>
       <Toggle/>
       <QuoteBox/>
+      <SkillsList/>
     </>
   )
 }
