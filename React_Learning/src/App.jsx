@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Counter from './components/Counter'
 import Toggle from './components/Toggle'
+import QuoteBox from './components/QuoteBox'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Card title="Tailwind" description="Utility-first CSS" color="#00B4D8" />
       <Counter/>
       <Toggle/>
+      <QuoteBox/>
     </>
   )
 }
