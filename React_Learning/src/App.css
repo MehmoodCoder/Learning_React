@@ -135,3 +135,63 @@ body {
 .not-found h1 {
     color: #ef4444;
 }
+
+.app-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151c2c;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-weight: 700;
+    color: #f8fafc;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.nav-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+.active-link {
+    color: #00C864 !important;
+    background-color: #1e293b;
+    border-bottom: 2px solid #00C864;
+}
+
+.home-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
